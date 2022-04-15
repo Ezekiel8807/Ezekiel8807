@@ -1,5 +1,4 @@
 # About Me
-
 ![./images.jpeg](./images.jpeg)
 
 ## Hey👋
@@ -12,6 +11,7 @@ A fullstack developer over 5 years of expirence and work with diffrent javascrip
 - 💬 Ask me about anything
 - 📫 How to reach me:
 
+## Get In Touch
 - Portfolio: [Coming Soon]()
 - Linkin: [Connect](https://linkedin.com/in/Ezekiel8807)
 - Facebook: [Add Me](https://web.facebook.com/Ezekiel8807)
