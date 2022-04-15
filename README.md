@@ -1,6 +1,6 @@
 # About Me
 
-['Ezekiel'](./images.jpeg)
+[./images.jpeg](./images.jpeg)
 
 ## Hey👋
 ## I'm Ayebidun Ezekiel.
