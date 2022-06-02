@@ -10,7 +10,7 @@ A fullstack developer over 5 years of expirence and work with diffrent javascrip
 - 💬 Ask me about anything
 
 # 📫 How to reach me:
-- Portfolio: [Coming Soon]()
+- Portfolio: [website](https://ezefizzy.netlify.app)
 - Linkin: [Connect](https://linkedin.com/in/Ezekiel8807)
 - Facebook: [Add Me](https://web.facebook.com/Ezekiel8807)
 - Twitter: [Follow Me](https://twitter.com/AyebidunEzekiel)
