@@ -9,6 +9,8 @@ A full-stack developer with over 5 years of experience working with different ja
 - 🌱 I’m currently learning react-native,
 - 💬 Ask me about anything
 
+[![An image of @ezekiel8807's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ezekiel8807)](https://holopin.io/@ezekiel8807)
+
 # 📫 How to reach me:
 - Portfolio: [website](http://ezefizzy-ezekiel8807.vercel.app/)
 - Linkin: [Connect](https://linkedin.com/in/Ezekiel8807)
