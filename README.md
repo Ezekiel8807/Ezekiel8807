@@ -17,3 +17,5 @@ A full-stack developer with over 5 years of experience working with different ja
 - Facebook: [Add Me](https://web.facebook.com/Ezekiel8807)
 - Twitter: [Follow Me](https://twitter.com/AyebidunEzekiel)
 
+[![An image of @ezekiel8807's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ezekiel8807)](https://holopin.io/@ezekiel8807)
+
