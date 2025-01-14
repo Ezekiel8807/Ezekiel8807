@@ -7,8 +7,6 @@
 //   summaryStyle: string;
 // };
 
-import { Children, ReactNode } from "react";
-
 // export default function TopHeader({
 //   label,
 //   heading,
@@ -27,7 +25,7 @@ import { Children, ReactNode } from "react";
 // }
 
 type topHeaderProbs = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 export default function TopHeader(props: topHeaderProbs) {
