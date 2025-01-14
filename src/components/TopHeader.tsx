@@ -1,29 +1,3 @@
-// type topHeaderProbs = {
-//   label: string;
-//   labelStyle: string;
-//   heading: string;
-//   headingStyle: string;
-//   summary?: string;
-//   summaryStyle: string;
-// };
-
-// export default function TopHeader({
-//   label,
-//   heading,
-//   summary,
-//   labelStyle,
-//   headingStyle,
-//   summaryStyle,
-// }: topHeaderProbs) {
-//   return (
-//     <div className="text-center">
-//       <h4 className={labelStyle}>{label}</h4>
-//       <h1 className={headingStyle}>{heading}</h1>
-//       <p className={summaryStyle}>{summary}</p>
-//     </div>
-//   );
-// }
-
 type topHeaderProbs = {
   children: React.ReactNode;
 };
