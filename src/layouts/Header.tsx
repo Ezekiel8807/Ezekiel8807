@@ -1,5 +1,8 @@
-import logo from "../assets/air-balloon-large.svg";
+// icons
 import menuBtn from "../assets/icons/menu-02.svg";
+
+// components
+import Logo from "../components/Logo";
 
 // type headerProbsType = {
 //   e: React.ReactNode;
@@ -7,17 +10,14 @@ import menuBtn from "../assets/icons/menu-02.svg";
 
 export default function Header() {
   return (
-    <header className="w-screen bg-[#fff] relative md:p-3 p-5">
+    <header className="bg-[#fff] relative md:p-3 p-5">
       <div className="md:flex justify-around items-center">
         {/* logo design structure */}
-        <div className="flex">
-          <div className="img-box">
-            <img className="bg-blue" src={logo} alt="logo" />
-          </div>
-
-          <p className="logo-label text-2xl ms-1 font-black">A.E</p>
-        </div>
-
+        <Logo
+          logoBackground="bg-[#0077ff]"
+          logoColor="#ffffff"
+          logoTextColor={"text-black"}
+        />
         {/* mobile menu button */}
         <div className="absolute top-5 right-3 md:hidden">
           <img src={menuBtn} alt="menuBtn" />
@@ -25,7 +25,7 @@ export default function Header() {
 
         {/* navigation links */}
         <nav className="">
-          <ul className="md:flex text-center my-3 hidden md:inline-block items-center ">
+          <ul className="md:flex text-center my-3 hidden items-center ">
             <li className="md:hover:bg-white hover:bg-[#0077ff] md:hover:text-[#0077ff] rounded-3xl p-2 my-1">
               <a className="block font-bold text-sm" href="">
                 Home

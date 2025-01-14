@@ -33,15 +33,18 @@ export default function Hero() {
           <h4 className="font-semibold py-2 text-[#222222]">
             Welcome to my portfolio
           </h4>
-          <h1 className="font-black l py-2 md:text-[40px]">
+
+          {/* presentation words */}
+          <h1 className="font-black text-[30px] md:text-[40px]">
             Hi I’m
             <br />
-            <span className="font-black md:text-[50px] text-[#0077ff]">
+            <span className="text-[35px] md:text-[50px] text-[#0077ff]">
               Ayebidun Ezekiel
             </span>
             <br />
             Frontend Developer
           </h1>
+
           <p className="md:w-[300px] text-sm text-[#222222] ">
             Collaborating with highly skilled individuals and delivering
             top-quality services.

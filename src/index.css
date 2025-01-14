@@ -8,24 +8,3 @@
   font-family: "Quicksand", serif;
   font-weight: 400;
 }
-
-.img-box {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  border-radius: 50%;
-  background-color: #0077ff;
-}
-
-.img-box img {
-  width: 100%;
-  height: 100%;
-}
-
-.letChat {
-  width: 100px;
-  color: #fff;
-  padding: 5px;
-  border-radius: 50px;
-  background-color: #0077ff;
-}
