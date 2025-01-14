@@ -6,7 +6,7 @@ import Footer from "../layouts/Footer";
 import Tools from "../layouts/Tools";
 import Services from "../layouts/Services";
 import Achievement from "../layouts/achievement";
-import Projects from "../layouts/Projects";
+// import Projects from "../layouts/Projects";
 
 function App() {
   return (
