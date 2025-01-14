@@ -27,7 +27,7 @@ const downloadButtonStyle = {
 
 export default function Hero() {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+    <div className="flex flex-col-reverse md:flex-row md:my-10 items-center justify-center">
       <div className="p-2 text-center md:text-left">
         <div className="w-[300px] md:w-[500px] md:mx-auto">
           <h4 className="font-semibold py-2 text-[#222222]">
@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className=" p-2">
+      <div className="p-2">
         <img
           className="md:w-[400px] md:h-[400px] w-[250px] h-[250px]  mx-auto rounded-full border border-1"
           src={proPhoto}

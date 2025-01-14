@@ -8,3 +8,8 @@
   font-family: "Quicksand", serif;
   font-weight: 400;
 }
+
+.achievement {
+  background-image: url("../src/assets/img/AchievementSection.svg");
+  background-repeat: no-repeat;
+}
