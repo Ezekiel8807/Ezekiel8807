@@ -6,7 +6,7 @@ import twitterIcon from "../assets/icons/Group 7.svg";
 import linkinIcon from "../assets/icons/icon linkedin.svg";
 import emailIcon from "../assets/icons/icon email.svg";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer>
       <div className="flex flex-col md:flex-row p-5 justify-center bg-[#0077ff]">
@@ -17,7 +17,7 @@ export default function Footer() {
             logoTextColor="text-white"
           />
           <p className="text-sm py-3 md:ml-5 text-white md:text-[#79B2F2]">
-            © Copyright 2025. All Rights Reserved
+            © Copyright {new Date().getFullYear()}. All Rights Reserved
           </p>
         </div>
 
@@ -28,34 +28,49 @@ export default function Footer() {
             <a
               className="mx-1 block"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.facebook.com/profile.php?id=100077701836062/"
             >
-              <img src={facebookIcon} alt="facebookIcon" />
+              <img
+                src={facebookIcon}
+                alt="Facebook Icon - Link to Facebook profile"
+              />
             </a>
             <a
               className="mx-1 block"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://x.com/AyebidunEzekiel/"
             >
-              <img src={twitterIcon} alt="twitterIcon" />
+              <img
+                src={twitterIcon}
+                alt="Twitter Icon - Link to Twitter profile"
+              />
             </a>
             <a
               className="mx-1 block"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/Ezekiel8807/"
             >
-              <img src={linkinIcon} alt="linkinIcon" />
+              <img
+                src={linkinIcon}
+                alt="LinkedIn Icon - Link to LinkedIn profile"
+              />
             </a>
             <a
               className="mx-1 block"
               target="_blank"
-              href="mailto:ayebidunezekiel@gmail.com/"
+              rel="noopener noreferrer"
+              href="mailto:ayebidunezekiel@gmail.com"
             >
-              <img src={emailIcon} alt="emailIcon" />
+              <img src={emailIcon} alt="Email Icon - Send an email" />
             </a>
           </div>
         </div>
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

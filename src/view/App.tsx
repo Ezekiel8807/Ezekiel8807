@@ -10,7 +10,7 @@ function App() {
       <Main>
         <Hero />
       </Main>
-      <Footer> footer</Footer>
+      <Footer />
     </>
   );
 }
