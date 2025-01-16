@@ -3,7 +3,7 @@ import TopHeader from "../components/TopHeader";
 
 export default function Achievement() {
   return (
-    <div className="achievement">
+    <div className="achievement bg-[#0077ff]">
       <TopHeader>
         <h6 className="font-black text-md text-[#ffffff]">MILESTONES</h6>
         <h1 className="font-black py-1 text-3xl text-[#ffffff]">
@@ -11,7 +11,7 @@ export default function Achievement() {
         </h1>
       </TopHeader>
 
-      <div className="flex md:flex-row flex-col items-center justify-center">
+      <div className="flex md:flex-row flex-col pt-0 pb-10 items-center justify-center">
         <AchieveCard
           len="3800+"
           content="Figma ipsum component variant main layer. Hand."

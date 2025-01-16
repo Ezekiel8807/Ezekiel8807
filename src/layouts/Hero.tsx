@@ -1,29 +1,10 @@
 import proPhoto from "../assets/a.jpg";
-import Button from "../components/Button";
 
 // icons
 import downloadIcon from "../assets/icons/icon-download 1.svg";
 
-const hireButtonStyle = {
-  backgroundColor: "#0077ff",
-  padding: "5px",
-  width: "100px",
-  fontSize: "14px",
-  color: "#ffffff",
-  fontWeight: "bold",
-  marginRight: "20px",
-  borderRadius: "50px",
-};
-
-const downloadButtonStyle = {
-  padding: "5px",
-  width: "200px",
-  fontSize: "14px",
-  color: "#0077ff",
-  fontWeight: "bold",
-  border: "1px solid #0077ff",
-  borderRadius: "50px",
-};
+//doc
+import cv from "../assets/docs/cv1.pdf";
 
 export default function Hero() {
   return (
@@ -44,7 +25,6 @@ export default function Hero() {
             <br />
             Frontend Developer
           </h1>
-
           <p className="md:w-[300px] text-sm text-[#222222] ">
             Collaborating with highly skilled individuals and delivering
             top-quality services.
@@ -52,15 +32,31 @@ export default function Hero() {
 
           {/* Hero action buttons */}
           <div className="flex-row md:flex justify-center md:justify-start items-center py-3">
-            <Button buttonStyle={hireButtonStyle}>Hire Me!</Button>
-            <Button buttonStyle={downloadButtonStyle}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.link/913d6g"
+              className="block md:mr-[20px] md:w-[100px] my-3 p-[10px] font-black text-[14px] text-center bg-[#0077ff] rounded-[50px] text-white"
+              aria-label="Start a chat on WhatsApp"
+            >
+              Hire Me!
+            </a>
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={cv}
+              download
+              className="block md:w-[200px] my-3 p-[10px] font-black text-[14px] text-center border border-5 border-[#0077ff] rounded-[50px] text-[#0077ff]"
+              aria-label="Start a chat on Hire me"
+            >
               Download CV
               <img
                 className="inline ml-2 w-[16px]"
                 src={downloadIcon}
                 alt="downloadIcon"
               />
-            </Button>
+            </a>
           </div>
         </div>
       </div>

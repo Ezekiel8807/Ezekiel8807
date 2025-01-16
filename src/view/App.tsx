@@ -5,8 +5,8 @@ import Hero from "../layouts/Hero";
 import Footer from "../layouts/Footer";
 import Tools from "../layouts/Tools";
 import Services from "../layouts/Services";
-import Achievement from "../layouts/achievement";
-// import Projects from "../layouts/Projects";
+import Achievement from "../layouts/Achievement";
+import Projects from "../layouts/Projects";
 
 function App() {
   return (
@@ -17,8 +17,9 @@ function App() {
         <Tools />
         <Services />
         <Achievement />
+        <Projects />
       </Main>
-      {/* <Projects /> */}
+
       <Footer />
     </>
   );

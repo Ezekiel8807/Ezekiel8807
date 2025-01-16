@@ -2,7 +2,7 @@ import TopHeader from "../components/TopHeader";
 
 export default function Services() {
   return (
-    <div className="mx-auto">
+    <div id="services" className="mx-auto">
       <TopHeader>
         <h6 className="font-black text-md text-[#0077ff]">SERVICES</h6>
         <h1 className="font-black py-1 text-3xl text-[#222222]">

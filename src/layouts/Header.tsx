@@ -35,7 +35,17 @@ export default function Header() {
                 >
                   <a
                     className="block font-bold text-sm"
-                    href=""
+                    href={
+                      index == 0
+                        ? "/"
+                        : index == 1
+                          ? "/#about"
+                          : index == 2
+                            ? "/#services"
+                            : index == 3
+                              ? "/#blog"
+                              : "/#contact"
+                    }
                     aria-label={`Navigate to ${item}`}
                   >
                     {item}
