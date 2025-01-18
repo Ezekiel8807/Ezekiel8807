@@ -17,7 +17,7 @@ export default function Contact() {
           <h5 className="font-black text-[14px]">Hotline 24/7</h5>
           <h3 className="font-black text-[16px]">(+234) 8100196214</h3>
 
-          <div className="mt-3">
+          <div className="mt-5">
             <p className="py-1 text-[12px]">
               <span className="text-[13px] font-black">Adress: </span>3 Olatunja
               Str, Sango ota, Ogun state, Nigeria.
@@ -69,12 +69,12 @@ export default function Contact() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 text-[12px] gap-5 w-[80%] mx-auto ">
         <div></div>
-        <div className="my-3 text-white">
-          <div>
-            <input className="mr-1 " type="checkbox" name="" id="" />
+        <div className="-mt-5 md:my-2">
+          <div className="my-3 text-white">
+            <input className="mr-[5px] " type="checkbox" name="" id="" />
             By submitting, i’m agreed to the Terms & Conditons
           </div>
-          <Button buttonStyle="w-[100%] md:w-[200px] my-5 rounded-3xl bg-[#00489A] text-[16px] font-black text-white p-3">
+          <Button buttonStyle="w-[100%] md:w-[200px] rounded-3xl bg-[#00489A] text-[16px] font-black text-white p-3">
             Request Now
           </Button>
         </div>
