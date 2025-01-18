@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .card {
+    @apply bg-white;
+    @apply border rounded-lg;
+    @apply shadow-lg
+  }
+}
+
 :root {
   box-sizing: border-box;
   font-family: "Quicksand", serif;
@@ -13,6 +21,15 @@
   width: 100%;
   height: 100%;
   background-image: url("../src/assets/img/AchievementSection.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/assets/img/contactBg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

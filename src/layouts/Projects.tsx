@@ -1,4 +1,5 @@
 import TopHeader from "../components/TopHeader";
+import Project from "../components/Project";
 
 export default function Projects() {
   return (
@@ -9,6 +10,13 @@ export default function Projects() {
           Presenting My Design Portfolio and Case Studies
         </h1>
       </TopHeader>
+
+      <div className="p-5">
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+      </div>
     </div>
   );
 }
