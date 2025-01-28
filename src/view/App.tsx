@@ -8,6 +8,7 @@ import Services from "../layouts/Services";
 import Achievement from "../layouts/Achievement";
 import Projects from "../layouts/Projects";
 import Contact from "../layouts/Contact";
+import Testimony from "../layouts/Testimony";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <Achievement />
         <Projects />
+        <Testimony />
         <Contact />
       </Main>
 

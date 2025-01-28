@@ -5,9 +5,8 @@
 
 @layer components {
   .card {
-    @apply bg-white;
-    @apply border rounded-lg;
-    @apply shadow-lg
+    @apply bg-white border border-[#dddddd] rounded-lg
+      shadow-lg;
   }
 }
 

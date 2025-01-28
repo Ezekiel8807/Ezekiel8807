@@ -1,65 +1,67 @@
 import TopHeader from "../components/TopHeader";
-import Project from "../components/Project";
+import ScrollerDiv from "./ScrollerDiv";
 
 // images
 import image1 from "../assets/img/contactBg.svg";
+import TestimonyCard from "../components/TestimonyCard";
 
-export default function Projects() {
-  const projects: {
+export default function Testimony() {
+  const testimonies: {
     name: string;
-    description: string;
+    about: string;
     image: string;
   }[] = [
     {
       name: "Website / App DesignUX / UI Design",
-      description:
+      about:
         "Creating Engaging Digital Experiences for Websites and Apps through UX/U",
       image: `${image1}`,
     },
     {
       name: "Strategic Marketing and Creative Content",
-      description:
+      about:
         "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
       image: `${image1}`,
     },
 
     {
       name: "Strategic Marketing and Creative Content",
-      description:
+      about:
         "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
       image: `${image1}`,
     },
 
     {
       name: "Multivendor eCommerce Website Solutions",
-      description: "Unlocking the World of Multivendor eCommerce Websites",
+      about: "Unlocking the World of Multivendor eCommerce Websites",
       image: `${image1}`,
     },
     {
       name: "Multivendor eCommerce Website Solutions",
-      description: "Unlocking the World of Multivendor eCommerce Websites",
+      about: "Unlocking the World of Multivendor eCommerce Websites",
       image: `${image1}`,
     },
     {
       name: "Multivendor eCommerce Website Solutions",
-      description: "Unlocking the World of Multivendor eCommerce Websites",
+      about: "Unlocking the World of Multivendor eCommerce Websites",
       image: `${image1}`,
     },
   ];
+
   return (
     <div>
       <TopHeader>
-        <h6 className="font-black text-md text-[#0077ff]">PROJECTS</h6>
+        <h6 className="font-black text-md text-[#0077ff]">TESTIMONIALS</h6>
         <h1 className="font-black py-1 text-3xl text-[#222222]">
-          Presenting My Design Portfolio and Case Studies
+          The Trust From Clients
         </h1>
       </TopHeader>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-5 gap-5 ">
-        {projects.map((project) => (
-          <Project key={project.name} projectData={project} />
+      <ScrollerDiv>
+        {testimonies.map((testimony) => (
+          <TestimonyCard key={testimony.name} testimonyData={testimony} />
         ))}
-      </div>
+      </ScrollerDiv>
     </div>
   );
 }

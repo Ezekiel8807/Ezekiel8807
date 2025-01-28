@@ -69,7 +69,7 @@ export default function Contact() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 text-[12px] gap-5 w-[80%] mx-auto ">
         <div></div>
-        <div className="-mt-5 md:my-2">
+        <div className="mb-16 -mt-5 md:my-2">
           <div className="my-3 text-white">
             <input className="mr-[5px] " type="checkbox" name="" id="" />
             By submitting, i’m agreed to the Terms & Conditons
