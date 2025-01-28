@@ -11,7 +11,7 @@ export default function Achievement() {
         </h1>
       </TopHeader>
 
-      <div className="flex md:flex-row flex-col pt-0 pb-10 items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 justify-between m-5 md:m-10">
         <AchieveCard
           len="3800+"
           content="Figma ipsum component variant main layer. Hand."

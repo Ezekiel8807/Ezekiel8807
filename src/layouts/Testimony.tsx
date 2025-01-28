@@ -1,9 +1,9 @@
 import TopHeader from "../components/TopHeader";
 import ScrollerDiv from "./ScrollerDiv";
+import TestimonyCard from "../components/TestimonyCard";
 
 // images
-import image1 from "../assets/img/contactBg.svg";
-import TestimonyCard from "../components/TestimonyCard";
+import image1 from "../assets/a.jpg";
 
 export default function Testimony() {
   const testimonies: {

@@ -55,7 +55,7 @@ export default function Projects() {
         </h1>
       </TopHeader>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-5 gap-5 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-5 md:m-10 gap-5 ">
         {projects.map((project) => (
           <Project key={project.name} projectData={project} />
         ))}

@@ -3,7 +3,7 @@ type scrollerDivProbs = {
 };
 export default function ScrollerDiv(probs: scrollerDivProbs) {
   return (
-    <div className="mx-auto relative whitespace-nowrap overflow-x-scroll scroll-m-0">
+    <div className="mx-auto relative whitespace-nowrap overflow-x-scroll no-scrollbar">
       {probs.children}
     </div>
   );

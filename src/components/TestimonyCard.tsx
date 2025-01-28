@@ -10,10 +10,10 @@ type testimonyCardProbs = {
 export default function TestimonyCard(probs: testimonyCardProbs) {
   return (
     <div
-      className={`group hover:bg-[#0077ff] card w-[280px] md:w-[300px] inline-block m-5 p-5`}
+      className={`group hover:bg-[#0077ff] card w-[280px] md:w-[300px] inline-block first:ml-5 md:first:ml-10 mr-5 md:mr-10 mb-16 p-5`}
     >
       <img
-        className="w-[100px] h-[100px] bg-red-300 rounded-full mx-auto"
+        className="w-[100px] h-[100px] rounded-full mx-auto"
         src={probs.testimonyData.image}
       />
 
@@ -26,8 +26,8 @@ export default function TestimonyCard(probs: testimonyCardProbs) {
       </p>
 
       <div className="group-hover:text-white text-center mt-3">
-        <h4 className="font-black">Jenny Wilson</h4>
-        <p>Medical Assistant</p>
+        <h4 className="font-black">Ayebidun Ezekiel</h4>
+        <p>Frontend Engineer</p>
       </div>
     </div>
   );
