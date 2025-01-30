@@ -3,14 +3,15 @@ import Ranks from "./Ranks";
 type testimonyCardProbs = {
   testimonyData: {
     name: string;
-    about: string;
+    content: string;
     image: string;
+    profession: string;
   };
 };
 export default function TestimonyCard(probs: testimonyCardProbs) {
   return (
     <div
-      className={`group hover:bg-[#0077ff] card w-[280px] md:w-[300px] inline-block first:ml-5 md:first:ml-10 mr-5 md:mr-10 mb-16 p-5`}
+      className={`group hover:bg-[#0077ff] card  w-[280px] md:w-[380px]  p-5`}
     >
       <img
         className="w-[100px] h-[100px] rounded-full mx-auto"
@@ -19,15 +20,13 @@ export default function TestimonyCard(probs: testimonyCardProbs) {
 
       <Ranks nums={[1, 2, 3, 4, 5]} />
 
-      <p className="group-hover:text-white text-sm whitespace-normal">
-        Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet tellus
-        eget egestas. Enim ultrices dictumst tortor in eget neque vestibulum
-        potenti tempus
+      <p className="group-hover:text-white text-sm text-justify">
+        {probs.testimonyData.content}
       </p>
 
       <div className="group-hover:text-white text-center mt-3">
-        <h4 className="font-black">Ayebidun Ezekiel</h4>
-        <p>Frontend Engineer</p>
+        <h4 className="font-black">{probs.testimonyData.name}</h4>
+        <p>{probs.testimonyData.profession}</p>
       </div>
     </div>
   );

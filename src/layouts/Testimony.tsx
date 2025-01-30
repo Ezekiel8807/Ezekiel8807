@@ -6,45 +6,46 @@ import TestimonyCard from "../components/TestimonyCard";
 import image1 from "../assets/a.jpg";
 
 export default function Testimony() {
-  const testimonies: {
+  const testimonials: {
     name: string;
-    about: string;
+    content: string;
     image: string;
+    profession: string;
   }[] = [
     {
-      name: "Website / App DesignUX / UI Design",
-      about:
-        "Creating Engaging Digital Experiences for Websites and Apps through UX/U",
+      name: "John Doe",
       image: `${image1}`,
+      content:
+        "Ayebidun's expertise in Fullstack development and his dedication to mentoring others have been invaluable. His ability to teach complex concepts while delivering top-notch projects has truly helped me elevate my career.",
+      profession: "Software Engineer",
     },
     {
-      name: "Strategic Marketing and Creative Content",
-      about:
-        "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
+      name: "Sarah Smith",
       image: `${image1}`,
-    },
-
-    {
-      name: "Strategic Marketing and Creative Content",
-      about:
-        "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
-      image: `${image1}`,
-    },
-
-    {
-      name: "Multivendor eCommerce Website Solutions",
-      about: "Unlocking the World of Multivendor eCommerce Websites",
-      image: `${image1}`,
+      content:
+        "His deep knowledge of React.js and backend technologies like Node.js and Django helped me build real-world applications with ease. Ayebidun doesn't just teach, he makes you feel like you can tackle any challenge.",
+      profession: "Frontend Developer",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      about: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "James Lee",
       image: `${image1}`,
+      content:
+        "Working with Ayebidun was an eye-opening experience. He guided me through React, Node.js, and cloud deployments, always ensuring I understood the concepts. His mentorship helped me grow as both a developer and a problem solver.",
+      profession: "Fullstack Developer",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      about: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Emily Wang",
       image: `${image1}`,
+      content:
+        "Ayebidun’s hands-on experience with cutting-edge technologies like Tailwind, Bootstrap, and Git, along with cloud platforms like Vercel and Heroku, helped me gain the practical knowledge needed for scalable app development.",
+      profession: "Web Developer",
+    },
+    {
+      name: "Michael Brown",
+      image: `${image1}`,
+      content:
+        "I’ve been learning with Ayebidun for a while now, and his commitment to React and JavaScript mastery is evident in everything he does. His passion for continuous learning and teaching is contagious, and I’ve gained so much in the process.",
+      profession: "Junior Developer",
     },
   ];
 
@@ -58,7 +59,7 @@ export default function Testimony() {
       </TopHeader>
 
       <ScrollerDiv>
-        {testimonies.map((testimony) => (
+        {testimonials.map((testimony) => (
           <TestimonyCard key={testimony.name} testimonyData={testimony} />
         ))}
       </ScrollerDiv>
