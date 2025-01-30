@@ -10,9 +10,7 @@ type testimonyCardProbs = {
 };
 export default function TestimonyCard(probs: testimonyCardProbs) {
   return (
-    <div
-      className={`group hover:bg-[#0077ff] card  w-[280px] md:w-[380px]  p-5`}
-    >
+    <div className={`group hover:bg-[#0077ff] card w-[280px] p-5`}>
       <img
         className="w-[100px] h-[100px] rounded-full mx-auto"
         src={probs.testimonyData.image}

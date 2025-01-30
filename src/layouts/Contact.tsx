@@ -12,7 +12,7 @@ export default function Contact() {
         </h1>
       </TopHeader>
 
-      <div className="flex flex-col md:flex-row w-[80%] gap-5 mx-auto">
+      <div className="flex flex-col md:flex-row p-5 md:p-10 gap-5">
         <div className="md:w-[50%] p-5 rounded-2xl bg-white">
           <h5 className="font-black text-[14px]">Hotline 24/7</h5>
           <h3 className="font-black text-[16px]">(+234) 8100196214</h3>
@@ -67,9 +67,9 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 text-[12px] gap-5 w-[80%] mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 text-[12px] gap-5 px-5 md:px-10 mx-auto ">
         <div></div>
-        <div className="mb-16 -mt-5 md:my-2">
+        <div className="mb-16 -mt-10">
           <div className="my-3 text-white">
             <input className="mr-[5px] " type="checkbox" name="" id="" />
             By submitting, i’m agreed to the Terms & Conditons

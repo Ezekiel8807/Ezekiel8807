@@ -34,7 +34,7 @@ export default function Achievement() {
         </h1>
       </TopHeader>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 justify-between m-5 md:m-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:sm:grid-cols-3 lg:grid-cols-4 gap-5 justify-between m-5 md:m-10">
         {achievements.map((achievement) => (
           <AchieveCard key={achievement.content} achievement={achievement} />
         ))}

@@ -4,7 +4,7 @@ import proPhoto from "../assets/a.jpg";
 import downloadIcon from "../assets/icons/icon-download 1.svg";
 
 //doc
-import cv from "../assets/docs/cv1.pdf";
+import cv from "../assets/docs/cv3.pdf";
 
 export default function Hero() {
   return (
