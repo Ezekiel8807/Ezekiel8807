@@ -1,12 +1,9 @@
-// images
-
-import Button from "./Button";
-
 type projectProbs = {
   projectData: {
     name: string;
     image: string;
     description: string;
+    link: string;
   };
 };
 export default function Project(probs: projectProbs) {
@@ -22,10 +19,15 @@ export default function Project(probs: projectProbs) {
         <p className="mb-3">{probs.projectData.description}</p>
 
         <div className="flex flex-row justify-between py-2">
-          <Button buttonStyle="text-white px-3 py-1 rounded bg-[#0077ff]">
+          <a href="/" className="text-white px-5 py-1 rounded bg-[#0077ff]">
             🏪Reop
-          </Button>
-          <Button>Live 🚀</Button>
+          </a>
+          <a
+            href={probs.projectData.link}
+            className="px-5 py-1 hover:text-[#0077ff]"
+          >
+            Live 🚀
+          </a>
         </div>
       </div>
     </div>

@@ -5,47 +5,46 @@ import ServiceCard from "../components/ServiceCard";
 import ScrollerDiv from "./ScrollerDiv";
 
 export default function Services() {
-  const services: {
-    name: string;
-    disc: string;
-  }[] = [
+  const services = [
     {
-      name: "Website / App DesignUX / UI Design",
-      disc: "Creating Engaging Digital Experiences for Websites and Apps through UX/U",
+      name: "Fullstack Development",
+      disc: "End-to-end web development solutions using modern technologies, building both frontend and backend.",
     },
     {
-      name: "Strategic Marketing and Creative Content",
-      disc: "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
-    },
-
-    {
-      name: "Strategic Marketing and Creative Content",
-      disc: "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
-    },
-
-    {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Frontend Development (React.js)",
+      disc: "Specialized in building responsive, dynamic, and interactive user interfaces using React.js.",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Backend Development (Node.js, Express.js, Django)",
+      disc: "Creating robust, scalable server-side applications with Node.js, Express.js, and Django.",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Web Development (HTML, CSS, JavaScript, Tailwind, Bootstrap)",
+      disc: "Building modern, mobile-first websites using the latest frontend technologies and frameworks.",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Database Management (MySQL, MongoDB)",
+      disc: "Designing and managing databases to store and retrieve data efficiently for web applications.",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "Cloud Hosting & Deployment",
+      disc: "Deploying web applications to platforms like Heroku, Vercel, and Netlify for seamless scaling and performance.",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
-      disc: "Unlocking the World of Multivendor eCommerce Websites",
+      name: "API Development & Integration",
+      disc: "Building custom APIs or integrating third-party APIs to extend the functionality of web applications.",
+    },
+    {
+      name: "Code Review & Debugging",
+      disc: "Reviewing code for best practices, performance, and security improvements, along with troubleshooting and fixing issues.",
+    },
+    {
+      name: "Training & Mentorship",
+      disc: "Providing one-on-one or group coaching sessions for learners and professionals, with a focus on React, JavaScript, and full-stack development.",
+    },
+    {
+      name: "Maintenance & Optimization",
+      disc: "Offering ongoing support for web applications, including performance optimization and updates.",
     },
   ];
   return (

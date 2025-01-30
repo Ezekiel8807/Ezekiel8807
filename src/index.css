@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer utilities {
-  .no-scrollbar::--webkit-scrollbar {
+  .no-scrollbar:state(webkit-scrollbar) {
     display: none;
   }
 

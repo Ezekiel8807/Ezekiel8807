@@ -23,7 +23,6 @@ function App() {
         <Testimony />
         <Contact />
       </Main>
-
       <Footer />
     </>
   );

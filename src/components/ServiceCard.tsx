@@ -3,6 +3,7 @@ import ServiceIcon from "./ServiceIcon";
 
 type serviceCardProbs = {
   serviceCardData: {
+    iconType?: string;
     name: string;
     disc: string;
   };
@@ -11,35 +12,26 @@ type serviceCardProbs = {
 export default function ServiceCard(probs: serviceCardProbs) {
   const [selected, setSelected] = useState(false);
 
-  function addStyle(): void {
-    setSelected(true);
-  }
-
   return (
     <div
-      onMouseOver={addStyle}
-      onMouseOut={() => {
-        setSelected(false);
-      }}
-      className={`card w-[280px] md:w-[380px] inline-block m-5 p-5 ${selected ? "bg-[#0077ff]" : ""}`}
+      onMouseOver={() => setSelected(true)}
+      onMouseOut={() => setSelected(false)}
+      className={`card group w-[280px] md:w-[380px] p-5 ${selected && "hover:bg-[#0077ff]"}`}
     >
-      <ServiceIcon selected={selected} />
+      <ServiceIcon selected={selected} iconStyle="" />
+
       <h1
-        className={`font-black text-md my-1  ${selected ? "text-white" : ""} whitespace-normal`}
+        className={`font-black text-2xl mt-3 ${selected && "group-hover:text-white"}`}
       >
         {probs.serviceCardData.name}
       </h1>
-      <p
-        className={`whitespace-normal text-sm ${selected ? "text-white" : ""}`}
-      >
+      <p className={`${selected && "group-hover:text-white"} my-3 text-md `}>
         {probs.serviceCardData.disc}
       </p>
 
-      <p
-        className={`font-black mt-3 text-[12px] ${selected ? "text-white" : "text-[#0077ff]"}`}
-      >
+      <small className={`${selected && "group-hover:text-white"} text-sm`}>
         Learn more ➡️
-      </p>
+      </small>
     </div>
   );
 }

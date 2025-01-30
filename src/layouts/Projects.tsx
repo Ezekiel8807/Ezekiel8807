@@ -2,52 +2,54 @@ import TopHeader from "../components/TopHeader";
 import Project from "../components/Project";
 
 // images
-import image1 from "../assets/img/contactBg.svg";
+import imagea from "../assets/img/bg/Screenshot 2025-01-29 160205.png";
+import imageb from "../assets/img/bg/Screenshot 2025-01-29 160359.png";
+import imaged from "../assets/img/bg/Screenshot 2025-01-29 160454.png";
+import imagef from "../assets/img/bg/Screenshot 2025-01-29 160614.png";
+import imageg from "../assets/img/bg/Screenshot 2025-01-29 160648.png";
 
 export default function Projects() {
   const projects: {
     name: string;
     description: string;
     image: string;
+    link: string;
   }[] = [
     {
-      name: "Website / App DesignUX / UI Design",
+      name: "kwickerhub",
       description:
         "Creating Engaging Digital Experiences for Websites and Apps through UX/U",
-      image: `${image1}`,
+      image: `${imagea}`,
+      link: "https://roynek.com/kwickerhub/WebCraftifyAI/",
     },
     {
-      name: "Strategic Marketing and Creative Content",
+      name: "Room8",
       description:
         "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
-      image: `${image1}`,
+      image: `${imageb}`,
+      link: "https://room8.vercel.app/",
     },
-
     {
-      name: "Strategic Marketing and Creative Content",
-      description:
-        "Elevating Brands and Engagement through Strategic Marketing and Creative Content",
-      image: `${image1}`,
-    },
-
-    {
-      name: "Multivendor eCommerce Website Solutions",
+      name: "Ezefizzy",
       description: "Unlocking the World of Multivendor eCommerce Websites",
-      image: `${image1}`,
+      image: `${imaged}`,
+      link: "https://ayebidunezekiel.vercel.app/",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
+      name: "oiling",
       description: "Unlocking the World of Multivendor eCommerce Websites",
-      image: `${image1}`,
+      image: `${imagef}`,
+      link: "https://codeneacademy.netlify.app/",
     },
     {
-      name: "Multivendor eCommerce Website Solutions",
+      name: "codeneacademy",
       description: "Unlocking the World of Multivendor eCommerce Websites",
-      image: `${image1}`,
+      image: `${imageg}`,
+      link: "https://codeneacademy.netlify.app/",
     },
   ];
   return (
-    <div>
+    <div id="projects">
       <TopHeader>
         <h6 className="font-black text-md text-[#0077ff]">PROJECTS</h6>
         <h1 className="font-black py-1 text-3xl text-[#222222]">

@@ -7,8 +7,8 @@ type starProbs = {
 export default function Ranks(probs: starProbs) {
   return (
     <div className="flex flex-row justify-center my-5">
-      {probs.nums.map((num) => (
-        <img src={star} alt={`${num} ${star}`} />
+      {probs.nums.map((num, i) => (
+        <img key={i} src={star} alt={`${num} ${star}`} />
       ))}
     </div>
   );

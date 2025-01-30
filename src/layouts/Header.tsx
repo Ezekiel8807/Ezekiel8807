@@ -6,8 +6,8 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#fff] relative md:p-3 p-5">
-      <div className="md:flex justify-around items-center">
+    <header className="relative p-5">
+      <div className="md:flex md:px-16 justify-between items-center">
         <Logo
           logoBackground="bg-[#0077ff]"
           logoColor="#ffffff"
@@ -15,7 +15,7 @@ export default function Header() {
         />
 
         {/* Mobile Menu Button */}
-        <div className="absolute top-5 right-3 md:hidden">
+        <div className="absolute top-5 right-5 md:hidden">
           <img
             src={menuBtn}
             alt="Toggle navigation menu"
@@ -25,13 +25,15 @@ export default function Header() {
         </div>
 
         {/* Navigation Links */}
-        <nav className={`${menuOpen ? "block" : "hidden"} md:block`}>
+        <nav
+          className={`flex flex-row absolute md:relative w-[200px] ms:w-[80%] md:w-[60%] bg-[#0077ff] md:bg-white rounded shadow-xl md:shadow-none p-2 md:p-0 top-16 md:top-0 right-3 justify-center md:justify-between items-center md:flex ${menuOpen ? "block" : "hidden"} `}
+        >
           <ul className="md:flex text-center my-3 items-center">
-            {["Home", "About me", "Services", "Blog", "Contact Me"].map(
+            {["Home", "About me", "Services", "Projects", "Contact Me"].map(
               (item, index) => (
                 <li
                   key={index}
-                  className="md:hover:bg-white hover:bg-[#0077ff] md:hover:text-[#0077ff] rounded-3xl p-2 my-1"
+                  className="md:hover:bg-white hover:bg-white md:hover:text-[#0077ff] rounded-3xl py-2 px-4 my-1"
                 >
                   <a
                     className="block font-bold text-sm"
@@ -43,7 +45,7 @@ export default function Header() {
                           : index == 2
                             ? "/#services"
                             : index == 3
-                              ? "/#blog"
+                              ? "/#projects"
                               : "/#contact"
                     }
                     aria-label={`Navigate to ${item}`}
@@ -53,19 +55,20 @@ export default function Header() {
                 </li>
               )
             )}
-            {/* Chat Button */}
-            <div className="hidden md:block md:ml-12">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://wa.link/913d6g"
-                className="block md:ml-12 w-[130px] bg-[#0077ff] p-2 rounded-3xl text-white"
-                aria-label="Start a chat on WhatsApp"
-              >
-                let's chat
-              </a>
-            </div>
           </ul>
+
+          {/* Chat Button */}
+          <div className="hidden md:block md:ml-12">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.link/913d6g"
+              className="block md:ml-12 w-[130px] bg-[#0077ff] p-2 rounded-3xl text-white text-center"
+              aria-label="Start a chat on WhatsApp"
+            >
+              let's chat
+            </a>
+          </div>
         </nav>
       </div>
     </header>
