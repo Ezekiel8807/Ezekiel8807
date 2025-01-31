@@ -8,10 +8,10 @@ import cv from "../assets/docs/cv3.pdf";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:my-10 items-center justify-center">
-      <div className="p-2 text-center md:text-left">
-        <div className="w-[300px] md:w-[500px] md:mx-auto">
-          <h4 className="font-semibold py-2 text-[#222222]">
+    <div className="flex flex-col-reverse md:flex-row m-5 md:m-10 items-center justify-center">
+      <div className="text-center md:text-left">
+        <div className="w-full md:w-[500px] md:mx-auto">
+          <h4 className="font-semibold pt-5 pb-3 text-[#222222]">
             Welcome to my portfolio
           </h4>
 
@@ -36,7 +36,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://wa.link/913d6g"
-              className="block md:mr-[20px] md:w-[100px] my-3 p-[10px] font-black text-[14px] text-center bg-[#0077ff] rounded-[50px] text-white"
+              className="block md:mr-[20px] md:w-[100px] my-3 p-5 md:p-[10px] font-black md:text-[14px] text-center bg-[#0077ff] rounded-[50px] text-white"
               aria-label="Start a chat on WhatsApp"
             >
               Hire Me!
@@ -47,7 +47,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               href={cv}
               download
-              className="block md:w-[200px] my-3 p-[10px] font-black text-[14px] text-center border border-5 border-[#0077ff] rounded-[50px] text-[#0077ff]"
+              className="block md:w-[200px] my-3 p-5 md:p-[10px] font-black md:text-[14px] text-center border border-5 border-[#0077ff] rounded-[50px] text-[#0077ff]"
               aria-label="Start a chat on Hire me"
             >
               Download CV
@@ -60,9 +60,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="p-2">
+      <div className="text-center">
         <img
-          className="md:w-[400px] md:h-[400px] w-[250px] h-[250px]  mx-auto rounded-full border border-1"
+          className="md:w-[400px] md:h-[400px] w-[300px] h-[300px]  mx-auto rounded-full border border-1"
           src={proPhoto}
           alt="profile-photo"
         />

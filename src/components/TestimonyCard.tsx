@@ -18,7 +18,7 @@ export default function TestimonyCard(probs: testimonyCardProbs) {
 
       <Ranks nums={[1, 2, 3, 4, 5]} />
 
-      <p className="group-hover:text-white text-sm text-justify">
+      <p className="group-hover:text-white text-sm">
         {probs.testimonyData.content}
       </p>
 

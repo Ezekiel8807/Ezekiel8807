@@ -1,72 +1,93 @@
-# 💬 About Me
+# Ayebidun Ezekiel Oluwaseyi
 
-### Hey👋
+### Full Stack Developer | Software Engineer
 
-### I'm Ayebidun Ezekiel.
+##### Email: ayebidunezekiel@gmail.com
 
-A full-stack developer with over 5 years of experience working with different javascript libraries and frameworks. I’m currently working on my portfolio, currently learning
+##### Phone: +2348100196214
 
-- 👯 I’m looking to collaborate on projects,
-- 🔭 I’m currently working on my portfolio,
-- 🌱 I’m currently learning react-native,
-- 💬 Ask me about anything
+##### [GitHub:https://github.com/Ezekiel8807](https://github.com/Ezekiel8807/)
 
-[![An image of @ezekiel8807's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ezekiel8807)](https://holopin.io/@ezekiel8807)
+##### [LinkedIn: https://www.linkedin.com/in/Ezekiel8807](https://www.linkedin.com/in/Ezekiel8807)
 
-# 📫 How to reach me:
+##### [Porfolio: https://www.ayebidunezekiel.vercel.app](https://www.ayebidunezekiel.vercel.app)
 
-- Portfolio: [website](http://ezefizzy-ezekiel8807.vercel.app/)
-- Linkin: [Connect](https://linkedin.com/in/Ezekiel8807)
-- Facebook: [Add Me](https://web.facebook.com/Ezekiel8807)
-- Twitter: [Follow Me](https://twitter.com/AyebidunEzekiel)
+### Summary
 
-[![An image of @ezekiel8807's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ezekiel8807)](https://holopin.io/@ezekiel8807)
+Highly skilled Fullstack Developer with experience in designing, building, and deploying scalable web
+applications. Proficient in both frontend and backend technologies, including React.js, Node.js,
+Express.js, Django, and MySQL. Adept at delivering optimized, secure, and user-centric applications with
+a strong focus on collaboration and problem-solving.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Technical Skills
 
-Currently, two official plugins are available:
+● Frontend: HTML5, CSS3, React.js, Tailwind CSS, Bootstrap
+● Backend: Node.js, Express.js, Django
+● Database: MySQL, MongoDB
+● Version Control: Git, GitHub
+● DevOps & Deployment: Heroku, Vercel, Netlify
+● Languages: JavaScript (ES6+), TypeScript, python, java
+● Others: REST APIs, Agile Methodologies, Debugging, Cross-Browser Compatibility
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Experience
 
-## Expanding the ESLint configuration
+**Full Stack Developer**
+_Freelance | Jan 2019 – present | Remote_
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+> - Designed and implemented dynamic and responsive web applications using React.js and Node.js.
+> - Built and maintained RESTful APIs for seamless communication between client and server.
+> - Optimized application performance, achieving a reduction in page load time.
+> - Collaborated with cross-functional teams to define, design, and launch new features.
+> - Integrated secure authentication systems using JSON Web Tokens (JWT) and OAuth.
 
-- Configure the top-level `parserOptions` property like this:
+**Head of Faculty & Instructor**
+_Aptech computer education | Nov 2023 – Jun 2024 | Ogun, Ota. Nigeria_
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+> - Taught and mentored students in fullstack web development, focusing on both frontend and
+>   backend technologies.
+> - Designed comprehensive lesson plans and real-world projects to foster a hands-on learning
+>   approach.
+> - Supervised and guided student projects, ensuring industry-standard implementation.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Education
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+**B.Tech / Computer science**
+_Olusegun Agagu University of Science and Technology Jan 2018 – Nov 2023. Ondo, Nigeria_
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+**Diploma / Desktop publishing**
+_Asi-Tech computer Training 2017 Ogun, Sango Ota, Nigeria_
+
+### Projects
+
+**Portfolio Website**
+_personal website (React.js) 2022_
+● Built a responsive portfolio showcasing skills, projects, and achievements using React.js and
+Tailwind CSS.
+● Implemented dynamic project sections using GitHub API to display repositories.
+
+**E-commerce Platform**
+_personal website (React.js) 2024_
+● Developed a full stack e-commerce platform with React.js, Node.js, and MySQL.
+● Implemented features like product catalog, user authentication, and a shopping cart.
+● Optimized database queries to improve data retrieval efficiency.
+
+### Hobbies & Interests
+
+● Exploring emerging technologies in fullstack development.
+● Contributing to open-source projects.
+● Mentoring and teaching aspiring developers.
+
+### Additional Details
+
+● Total years of Experience: 8 years
+● Relevant years of experience: 4 years
+● Current CTC (in local currency and USD): #5,400,000, $3,600.
+● Expected CTC (in local currency and USD): #7,800,000, $5,200.
+● Notice Period in months: 1 Month.
+● Current Location: Lagos, Nigeria
+● Reason for Change: Seeking growth opportunities and challenging projects to enhance skills.
+● Nationality: Nigerian
+● Preferred Location: Open to relocation
+
+<hr/>
+References: Available upon request.

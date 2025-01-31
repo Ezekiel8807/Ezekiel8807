@@ -4,6 +4,7 @@ type projectProbs = {
     image: string;
     description: string;
     link: string;
+    repo: string;
   };
 };
 export default function Project(probs: projectProbs) {
@@ -19,10 +20,17 @@ export default function Project(probs: projectProbs) {
         <p className="mb-3">{probs.projectData.description}</p>
 
         <div className="flex flex-row justify-between py-2">
-          <a href="/" className="text-white px-5 py-1 rounded bg-[#0077ff]">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={probs.projectData.repo}
+            className="text-white px-5 py-1 rounded bg-[#0077ff]"
+          >
             🏪Reop
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={probs.projectData.link}
             className="px-5 py-1 hover:text-[#0077ff]"
           >
