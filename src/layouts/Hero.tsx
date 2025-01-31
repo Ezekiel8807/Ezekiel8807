@@ -36,7 +36,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://wa.link/913d6g"
-              className="block md:mr-[20px] md:w-[100px] my-3 p-5 md:p-[10px] font-black md:text-[14px] text-center bg-[#0077ff] rounded-[50px] text-white"
+              className="block md:mr-[20px] md:w-[100px] my-3 p-3 md:p-[10px] font-black md:text-[14px] text-center bg-[#0077ff] rounded-[50px] text-white"
               aria-label="Start a chat on WhatsApp"
             >
               Hire Me!
@@ -47,7 +47,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               href={cv}
               download
-              className="block md:w-[200px] my-3 p-5 md:p-[10px] font-black md:text-[14px] text-center border border-5 border-[#0077ff] rounded-[50px] text-[#0077ff]"
+              className="block md:w-[200px] my-3 p-3 md:p-[10px] font-black md:text-[14px] text-center border border-5 border-[#0077ff] rounded-[50px] text-[#0077ff]"
               aria-label="Start a chat on Hire me"
             >
               Download CV

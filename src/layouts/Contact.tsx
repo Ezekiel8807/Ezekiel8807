@@ -1,8 +1,20 @@
 // components
+import { useState } from "react";
 import Button from "../components/Button";
 import TopHeader from "../components/TopHeader";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [ischecked, setIschecked] = useState(false);
+
+  const handleContactSubmit = () => {
+    if (!name || !email || !subject || !message) alert("All fields required!");
+    else alert("Submited");
+  };
+
   return (
     <div id="contact" className="contact bg-[#0077ff]">
       <TopHeader>
@@ -38,15 +50,22 @@ export default function Contact() {
         </div>
 
         <div className="md:w-[50%]">
-          <form className="grid grid-cols-2 gap-3" action="">
+          <form id="contactForm" className="grid grid-cols-2 gap-3" action="">
             <input
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
               className="rounded p-2 "
               type="text"
               name=""
               id=""
+              value={name}
               placeholder="Name*"
             />
             <input
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
               className="rounded p-2 "
               type="email"
               name=""
@@ -54,12 +73,18 @@ export default function Contact() {
               placeholder="Email Address*"
             />
             <input
+              onChange={(e) => {
+                setSubject(e.target.value);
+              }}
               className="rounded p-2 col-span-2"
-              type="texxt"
+              type="text"
               id=""
               placeholder="Enter Subject*"
             />
             <textarea
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
               className="rounded p-2 col-span-2"
               rows={5}
               placeholder="How can i help you?"
@@ -71,10 +96,21 @@ export default function Contact() {
         <div></div>
         <div className="mb-16 -mt-10">
           <div className="my-3 text-white">
-            <input className="mr-[5px] " type="checkbox" name="" id="" />
+            <input
+              onChange={() => {
+                setIschecked((v) => !v);
+              }}
+              checked={ischecked}
+              className="mr-[5px] "
+              type="checkbox"
+            />
             By submitting, i’m agreed to the Terms & Conditons
           </div>
-          <Button buttonStyle="w-[100%] md:w-[200px] rounded-3xl bg-[#00489A] text-[16px] font-black text-white p-3">
+          <Button
+            ischecked={ischecked}
+            btnAction={handleContactSubmit}
+            buttonStyle="w-[100%] md:w-[200px] rounded-3xl bg-[#00489A] text-[16px] font-black text-white p-3"
+          >
             Request Now
           </Button>
         </div>

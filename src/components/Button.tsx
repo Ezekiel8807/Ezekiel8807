@@ -1,17 +1,17 @@
-import React from "react";
-
 type ChildType = {
   children: string;
   buttonStyle?: string;
-  btnAction?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  ischecked?: boolean;
+  btnAction?: () => void;
 };
 
 export default function Button(props: ChildType) {
-  const handleBtn = (e: React.MouseEvent<HTMLButtonElement>): void => {
-    console.log(e);
-  };
   return (
-    <button onClick={handleBtn} className={props.buttonStyle}>
+    <button
+      disabled={!props.ischecked}
+      onClick={props.btnAction}
+      className={props.buttonStyle}
+    >
       {props.children}
     </button>
   );
