@@ -1,3 +1,5 @@
+![portfolio_image](public/image/portfolio.png)
+
 # Ayebidun Ezekiel Oluwaseyi
 
 ### Full Stack Developer | Software Engineer
